@@ -5,7 +5,7 @@ Using ThrowTheSwitch/Unity Test API for C code testing
    Create inside the lib folder  
    Put inside the src folder Makefile, which is needed to produce the .so library from the Unity project.  
    After make the libunity.so will be put in the lib folder.  
-   (In this project all these steps are done... Just copy)  
+   (In this project all these steps are done for Linux x64... Just copy)  
 2. Your library is a dynamic library. You need to tell the operating system where it can locate it at runtime.  
    Modify the LD_LIBRARY_PATH variable.  
    Example: export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/Desktop/projects/c_unity_tests/Unity/lib  
